@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-p {
-  font-family: "DM Sans", sans-serif !important;
-}
-
 nav {
   position: absolute !important;
   left: 0px;
@@ -29,7 +25,7 @@ nav a {
 
 .hero-banner {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../Images/banner.jpg");
+  background: url("../Images/banner-D2C.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,9 +35,9 @@ nav a {
   flex-direction: column;
 }
 .hero-banner h1 {
-  font-family: Lora, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 800;
   color: white;
   font-style: normal;
 }
@@ -52,8 +48,8 @@ nav a {
 }
 .hero-banner p {
   color: #fff;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   font-style: normal;
 }
@@ -71,8 +67,57 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-family: "DM Sans", sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
+  font-style: normal;
+}
+
+.mobile-hero-banner {
+  background-color: #022c4a;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.mobile-hero-banner h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+}
+@media (max-width: 991px) {
+  .mobile-hero-banner h1 {
+    font-size: 24px;
+  }
+}
+.mobile-hero-banner p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+}
+@media (max-width: 991px) {
+  .mobile-hero-banner p {
+    font-size: 14px;
+  }
+}
+.mobile-hero-banner img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.mobile-hero-banner button {
+  background-color: #FF3639;
+  padding: 10px 30px;
+  border: none;
+}
+.mobile-hero-banner button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
   font-style: normal;
 }
 
@@ -81,20 +126,25 @@ nav a {
 }
 .about h6 {
   color: #878c8f;
-  font-weight: 500;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
 }
 .about h2 {
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 55px;
   color: #000;
-  font-family: Lora, serif;
 }
 .about h2 span {
   color: #032F4F;
+}
+@media (max-width: 991px) {
+  .about h2 {
+    font-size: 32px;
+  }
 }
 .about p {
   font-family: "DM Sans", sans-serif;
@@ -140,6 +190,11 @@ nav a {
 .bg-three-box h2 span {
   color: #032F4F;
 }
+@media (max-width: 991px) {
+  .bg-three-box h2 {
+    font-size: 32px;
+  }
+}
 .bg-three-box .box {
   border: 2px solid #878c8f;
   border-radius: 50px;
@@ -179,6 +234,11 @@ nav a {
 }
 .logo h2 span {
   color: #032F4F;
+}
+@media (max-width: 991px) {
+  .logo h2 {
+    font-size: 32px;
+  }
 }
 .logo .slider {
   background: #fff;
@@ -254,6 +314,11 @@ nav a {
 }
 .agenda h2 span {
   color: #032F4F;
+}
+@media (max-width: 991px) {
+  .agenda h2 {
+    font-size: 32px;
+  }
 }
 .agenda p {
   color: #000;
@@ -370,6 +435,11 @@ nav a {
 .mentors h2 span {
   color: #fff;
 }
+@media (max-width: 991px) {
+  .mentors h2 {
+    font-size: 32px;
+  }
+}
 .mentors .content-box h4 {
   color: #fff;
   font-family: Lora, serif;
@@ -398,6 +468,11 @@ nav a {
 }
 .faq h2 span {
   color: #032F4F;
+}
+@media (max-width: 991px) {
+  .faq h2 {
+    font-size: 32px;
+  }
 }
 .faq .accordion-button:not(.collapsed) {
   color: #fff;
@@ -481,30 +556,46 @@ nav a {
 }
 
 footer {
-  background-color: #F7F0E4;
+  background-color: #032F4F;
 }
 
 .foot a {
   margin-bottom: 0px;
-  padding: 10px 0px;
+  padding: 20px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: none;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: "DM Sans", sans-serif;
 }
 .foot p {
   margin-bottom: 0px;
   padding: 10px 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
+  color: #fff;
   letter-spacing: 1.2px;
   text-transform: none;
   font-family: "DM Sans", sans-serif;
+}
+
+.content h4 {
+  font-weight: 700;
+}
+.content h6 {
+  font-weight: 600 !important;
+}
+
+.bg-image {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */

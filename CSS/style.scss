@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-p{
-    font-family: "DM Sans", sans-serif !important;
-}
+
 
 nav {
     position: absolute !important;
@@ -29,7 +27,7 @@ nav {
 
 .hero-banner {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../Images/banner.jpg");
+    background: url("../Images/banner-D2C.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,11 +35,10 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     h1 {
-        font-family: Lora, serif;
+        font-family: "Roboto", sans-serif;
         font-size: 60px;
-        font-weight: 600;
+        font-weight: 800;
         color: #ffff;
         font-style: normal;
         @media (max-width: 991px) {
@@ -52,8 +49,8 @@ nav {
 
     p {
         color: #fff;
-        font-family: "DM Sans", sans-serif;
-        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
         font-size: 18px;
         font-style: normal;
         @media (max-width:991px) {
@@ -70,8 +67,57 @@ nav {
             text-decoration: none;
             color: #fff;
             font-family: "DM Sans", sans-serif;
-            font-size: 18px;
+            font-size: 25px;
             font-weight: 700;
+            font-style: normal;
+        }
+    }
+}
+
+.mobile-hero-banner{
+    background-color: #022c4a;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        color: #ffff;
+        font-style: normal;
+        @media (max-width: 991px) {
+            font-size: 24px;
+            
+        }
+    }
+
+    p {
+        color: #fff;
+       font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        font-style: normal;
+        @media (max-width:991px) {
+            font-size: 14px;
+        }
+    }
+
+    img{
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    button {
+        background-color: #FF3639;
+        padding: 10px 30px;
+        border: none;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+           font-family: "Roboto", sans-serif;
+        font-weight: 300;
+            font-size: 18px;
             font-style: normal;
         }
     }
@@ -82,21 +128,25 @@ nav {
 
     h6 {
         color: #878c8f;
-        font-weight: 500;
-        font-family: "DM Sans", sans-serif;
+         font-family: "Roboto", sans-serif;
+         font-weight: 400;
         font-size: 18px;
         font-style: normal;
     }
 
     h2 {
-        font-weight: 500;
+           font-family: "Roboto", sans-serif;
+         font-weight: 400;
         font-style: normal;
         font-size: 55px;
         color: #000;
-        font-family: Lora, serif;
 
         span {
             color: #032F4F;
+        }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
         }
     }
 
@@ -163,6 +213,10 @@ nav {
         span{
             color: #032F4F;
         }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
+        }
     }
 
     .box {
@@ -205,6 +259,10 @@ nav {
         margin-bottom: 20px;
         span{
             color: #032F4F;
+        }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
         }
     }
     .slider {
@@ -287,6 +345,10 @@ nav {
         margin-bottom: 20px;
         span{
             color: #032F4F;
+        }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
         }
     }
 
@@ -434,6 +496,10 @@ nav {
         span{
             color: #fff;
         }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
+        }
     }
     .content-box{
         h4{
@@ -465,6 +531,10 @@ nav {
         margin-bottom: 20px;
         span{
             color: #032F4F;
+        }
+         @media (max-width: 991px) {
+            font-size: 32px;
+            
         }
     }
 
@@ -562,31 +632,49 @@ nav {
 
 
 footer{
-    background-color: #F7F0E4;
+    background-color: #032F4F;
 }
 .foot {
     a{
          margin-bottom: 0px;
-        padding: 10px 0px;
+        padding: 20px 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 700;
         letter-spacing: 1.2px;
         text-transform: none;
         text-decoration: none;
-        color: #000;
+        color: #fff;
         font-family: "DM Sans", sans-serif;    
     }
     p {
         margin-bottom: 0px;
         padding: 10px 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 700;
+        color: #fff;
         letter-spacing: 1.2px;
         text-transform: none;
         font-family: "DM Sans", sans-serif;
     }
+}
+
+.content{
+    h4{
+        font-weight: 700;
+    }
+    h6{
+        font-weight: 600 !important;
+    }
+}
+
+.bg-image{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
