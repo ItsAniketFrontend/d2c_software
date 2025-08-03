@@ -221,13 +221,10 @@ nav a {
 }
 .bg-three-box .box p {
   color: #032F4F;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   font-style: normal;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
-}
-.bg-three-box .box p span {
-  font-weight: 500;
 }
 @media (max-width: 991px) {
   .bg-three-box .box p {
@@ -239,7 +236,7 @@ nav a {
   padding: 70px 0px;
 }
 .logo h2 {
-  font-family: Lora, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 55px;
   font-weight: 500;
   color: #000;
@@ -248,6 +245,12 @@ nav a {
 }
 .logo h2 span {
   color: #032F4F;
+  font-size: 32px;
+}
+@media (max-width: 991px) {
+  .logo h2 span {
+    font-size: 32px;
+  }
 }
 @media (max-width: 991px) {
   .logo h2 {
@@ -265,12 +268,17 @@ nav a {
   align-items: center;
   width: 2000px;
   /* (image width * total slides) */
-  animation: scroll 20s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 .logo .slide {
   width: 200px;
   /* image width */
   flex-shrink: 0;
+}
+@media (max-width: 991px) {
+  .logo .slide {
+    width: 140px;
+  }
 }
 .logo .slide img {
   width: 100px;
@@ -297,29 +305,15 @@ nav a {
   overflow: hidden;
   z-index: 1;
 }
-.agenda .bg-box {
-  background: url(../Images/agenda-bg.png);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: -30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  mix-blend-mode: luminosity;
-  opacity: 0.1;
-  z-index: -1;
-}
 .agenda h6 {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   color: #032F4F;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .agenda h2 {
-  font-family: Lora, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 55px;
   font-weight: 500;
   color: #000;
@@ -338,7 +332,8 @@ nav a {
   color: #000;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 2.1px;
   padding: 10px;
   border: 1px solid #000;
@@ -348,7 +343,7 @@ nav a {
 .agenda .col-box {
   border-radius: 12px;
   border: 2px solid #032F4F;
-  border-radius: 50px;
+  border-radius: 30px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   color: #1a1725;
@@ -364,7 +359,7 @@ nav a {
   margin: 20px auto;
   border-radius: 8px;
   overflow: hidden;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .agenda .col-box .accordion-itemm {
   border-bottom: 1px solid #ddd;
