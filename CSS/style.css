@@ -205,19 +205,19 @@ nav a {
   }
 }
 .bg-three-box .box {
-  border: 2px solid #878c8f;
-  border-radius: 50px;
-  height: 100%;
-  padding: 30px 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: #fff;
+  border-bottom: 1px solid #000;
 }
 .bg-three-box .box h3 {
-  color: #FF722B;
+  color: #031f33;
   font-family: "Roboto", sans-serif;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 400;
   font-style: normal;
+}
+@media (max-width: 991px) {
+  .bg-three-box .box h3 {
+    font-size: 26px;
+  }
 }
 .bg-three-box .box p {
   color: #032F4F;
