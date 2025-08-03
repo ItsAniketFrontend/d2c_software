@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
+}
+
+header {
+  background: #fff !important;
+}
+
 nav {
   position: absolute !important;
   left: 0px;
@@ -161,9 +170,9 @@ nav a {
 .about button a {
   text-decoration: none;
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -180,7 +189,7 @@ nav a {
   font-style: normal;
 }
 .bg-three-box h2 {
-  font-family: Lora, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 55px;
   font-weight: 500;
   color: #000;
@@ -204,10 +213,10 @@ nav a {
   background-color: #fff;
 }
 .bg-three-box .box h3 {
-  color: #FF3639;
-  font-family: "DM Sans", sans-serif;
-  font-size: 28px;
-  font-weight: 300;
+  color: #FF722B;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
   font-style: normal;
 }
 .bg-three-box .box p {
@@ -215,10 +224,15 @@ nav a {
   font-weight: 200 !important;
   font-style: normal;
   font-size: 18px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .bg-three-box .box p span {
-  font-weight: bold;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  .bg-three-box .box p {
+    font-size: 14px;
+  }
 }
 
 .logo {
