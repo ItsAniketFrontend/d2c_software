@@ -80,6 +80,18 @@ nav a {
   font-weight: 700;
   font-style: normal;
 }
+.hero-banner .price-box {
+  background-color: #fff;
+  border: 1px solid #032F4F;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.hero-banner .price-box p {
+  color: #000;
+  margin: 0px;
+  font-weight: 600 !important;
+}
 
 .mobile-hero-banner {
   background-color: #022c4a;
@@ -128,6 +140,18 @@ nav a {
   font-weight: 300;
   font-size: 18px;
   font-style: normal;
+}
+.mobile-hero-banner .price-box {
+  background-color: #fff;
+  border: 1px solid #032F4F;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.mobile-hero-banner .price-box p {
+  color: #000;
+  margin: 0px;
+  font-weight: 600 !important;
 }
 
 .about {
