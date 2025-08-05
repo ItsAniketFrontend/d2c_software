@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 
-p{
+p {
     font-family: "Roboto", sans-serif;
     font-weight: 300 !important;
 }
 
 
-header{
+header {
     background: #fff !important;
 }
+
 nav {
-  
+
     position: absolute !important;
     left: 0px;
     top: 0px;
@@ -43,15 +44,17 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     h1 {
         font-family: "Roboto", sans-serif;
         font-size: 60px;
         font-weight: 800;
         color: #ffff;
         font-style: normal;
+
         @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
 
@@ -61,13 +64,14 @@ nav {
         font-weight: 300;
         font-size: 18px;
         font-style: normal;
+
         @media (max-width:991px) {
             font-size: 16px;
         }
     }
 
     button {
-        background-color: #FF3639;
+        background-color: #DF463E;
         padding: 10px 30px;
         border: none;
 
@@ -82,49 +86,52 @@ nav {
     }
 }
 
-.mobile-hero-banner{
+.mobile-hero-banner {
     background-color: #022c4a;
     padding-top: 80px;
     padding-bottom: 30px;
+
     h1 {
         font-family: "Roboto", sans-serif;
         font-size: 60px;
         font-weight: 400;
         color: #ffff;
         font-style: normal;
+
         @media (max-width: 991px) {
             font-size: 24px;
-            
+
         }
     }
 
     p {
         color: #fff;
-       font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 300;
         font-size: 18px;
         font-style: normal;
+
         @media (max-width:991px) {
             font-size: 14px;
         }
     }
 
-    img{
+    img {
         height: 300px;
         width: 100%;
         object-fit: contain;
     }
 
     button {
-        background-color: #FF3639;
+        background-color: #DF463E;
         padding: 10px 30px;
         border: none;
 
         a {
             text-decoration: none;
             color: #fff;
-           font-family: "Roboto", sans-serif;
-        font-weight: 300;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
             font-size: 18px;
             font-style: normal;
         }
@@ -136,15 +143,15 @@ nav {
 
     h6 {
         color: #878c8f;
-         font-family: "Roboto", sans-serif;
-         font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
         font-size: 18px;
         font-style: normal;
     }
 
     h2 {
-           font-family: "Roboto", sans-serif;
-         font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
         font-style: normal;
         font-size: 55px;
         color: #000;
@@ -152,9 +159,10 @@ nav {
         span {
             color: #032F4F;
         }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
 
@@ -167,14 +175,14 @@ nav {
     }
 
     button {
-        background-color: #FF3639;
+        background-color: #DF463E;
         padding: 10px 30px;
         border: none;
 
         a {
             text-decoration: none;
             color: #fff;
-             font-family: "Roboto", sans-serif;
+            font-family: "Roboto", sans-serif;
             font-size: 18px;
             font-weight: 300;
             font-style: normal;
@@ -218,32 +226,39 @@ nav {
         color: #000;
         font-style: normal;
         margin-bottom: 20px;
-        span{
+
+        span {
             color: #032F4F;
         }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
 
     .box {
+
         // border: 2px solid #878c8f;
         // border-radius: 20px;
         // height: 100%;
         // padding: 30px 10px;
         // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         // background-color: #fff;
-        border-bottom: 1px solid #000;
+        @media (max-width:991px) {
+            border-bottom: 1px solid #000;
+        }
+
         h3 {
             color: #031f33;
-              font-family: "Roboto", sans-serif;
+            font-family: "Roboto", sans-serif;
             font-size: 28px;
             font-weight: 400;
             font-style: normal;
+
             @media (max-width: 991px) {
                 font-size: 26px;
-                
+
             }
         }
 
@@ -252,13 +267,14 @@ nav {
             font-weight: 300 !important;
             font-style: normal;
             font-size: 18px;
-           font-family: "Roboto", sans-serif;
+            font-family: "Roboto", sans-serif;
+
             // span{
             //     font-weight: 500;
             // }
             @media (max-width: 991px) {
                 font-size: 14px;
-                
+
             }
         }
     }
@@ -267,26 +283,25 @@ nav {
 
 .logo {
     padding: 70px 0px;
-    h2{
+
+    h2 {
         font-family: "Roboto", sans-serif;
         font-size: 55px;
         font-weight: 500;
         color: #000;
         font-style: normal;
         margin-bottom: 20px;
-        span{
+
+        span {
             color: #032F4F;
-            font-size: 32px;
-            @media (max-width: 991px) {
-            font-size: 32px;
-            
         }
-        }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
+
     .slider {
         background: #fff;
         margin: auto;
@@ -306,9 +321,10 @@ nav {
         width: 200px;
         /* image width */
         flex-shrink: 0;
+
         @media (max-width: 991px) {
             width: 140px;
-            
+
         }
     }
 
@@ -357,24 +373,30 @@ nav {
     h6 {
         font-size: 24px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         color: #032F4F;
-         font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
+
+        @media (max-width:991px) {
+            font-size: 21px;
+        }
     }
 
     h2 {
-          font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 55px;
         font-weight: 500;
         color: #000;
         font-style: normal;
         margin-bottom: 20px;
-        span{
+
+        span {
             color: #032F4F;
         }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
 
@@ -382,12 +404,13 @@ nav {
         color: #000;
         font-size: 14px;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400 !important;
         font-family: "Roboto", sans-serif;
         letter-spacing: 2.1px;
         padding: 10px;
         border: 1px solid #000;
         width: fit-content;
+        list-style: bullet;
     }
 
     .col-box {
@@ -409,7 +432,7 @@ nav {
             margin: 20px auto;
             border-radius: 8px;
             overflow: hidden;
-             font-family: "Roboto", sans-serif;
+            font-family: "Roboto", sans-serif;
         }
 
         .accordion-itemm {
@@ -514,30 +537,34 @@ nav {
     //     z-index: -1;
     //     background: url(../Images/team-three-bg.jpg);
     // }
-    h2{
-        font-family: Lora, serif;
+    h2 {
+        font-family: "Roboto", sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         color: #fff;
         font-size: 55px;
-        span{
+
+        span {
             color: #fff;
         }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
-    .content-box{
-        h4{
+
+    .content-box {
+        h4 {
             color: #fff;
-            font-family: Lora, serif;
-            font-size: 24px;     
-            font-weight: 600;       
+            font-family: "Roboto", sans-serif;
+            font-size: 24px;
+            font-weight: 400;
         }
-        p{
-            color: #878c8f;
-            font-family: "DM Sans", sans-serif;
+
+        p {
+            color: #fff;
+            font-family: "Roboto", sans-serif;
             font-size: 16px;
             font-weight: 400;
             font-style: normal;
@@ -549,19 +576,21 @@ nav {
     padding: 50px 0px;
     background-color: #fff;
 
-     h2 {
-        font-family: Lora, serif;
+    h2 {
+        font-family: "Roboto", sans-serif;
         font-size: 55px;
         font-weight: 500;
         color: #000;
         font-style: normal;
         margin-bottom: 20px;
-        span{
+
+        span {
             color: #032F4F;
         }
-         @media (max-width: 991px) {
+
+        @media (max-width: 991px) {
             font-size: 32px;
-            
+
         }
     }
 
@@ -652,18 +681,19 @@ nav {
             padding: 10px 20px;
             border: none;
             color: #fff;
-            font-family: "DM Sans", sans-serif;
+            font-family: "Roboto", sans-serif;
         }
     }
 }
 
 
-footer{
+footer {
     background-color: #032F4F;
 }
+
 .foot {
-    a{
-         margin-bottom: 0px;
+    a {
+        margin-bottom: 0px;
         padding: 20px 0px;
         text-align: center;
         font-size: 12px;
@@ -673,8 +703,9 @@ footer{
         text-transform: none;
         text-decoration: none;
         color: #fff;
-        font-family: "DM Sans", sans-serif;    
+        font-family: "Roboto", sans-serif;
     }
+
     p {
         margin-bottom: 0px;
         padding: 10px 0px;
@@ -685,20 +716,21 @@ footer{
         color: #fff;
         letter-spacing: 1.2px;
         text-transform: none;
-        font-family: "DM Sans", sans-serif;
+        font-family: "Roboto", sans-serif;
     }
 }
 
-.content{
-    h4{
+.content {
+    h4 {
         font-weight: 700;
     }
-    h6{
+
+    h6 {
         font-weight: 600 !important;
     }
 }
 
-.bg-image{
+.bg-image {
     position: relative;
     top: 0;
     bottom: 0;
