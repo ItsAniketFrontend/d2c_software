@@ -24,7 +24,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="Images/logo.webp" width="250" alt="">
                 </a>
-                <button class="navbar-toggler d-none"  type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,6 +34,9 @@
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
+                         <li class="nav-item mx-4">
+                            <a class="nav-link" href="#about">Overview</a>
+                        </li>
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="#agenda">Agenda</a>
                         </li>
@@ -41,10 +44,10 @@
                             <a class="nav-link" href="#mentor">Mentor</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link" href="#">Why Us</a>
+                            <a class="nav-link" href="#why">Why Us</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link" href="#">FAQ's</a>
+                            <a class="nav-link" href="#faq">FAQ's</a>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +57,7 @@
 
     <main>
 
-        <section class="hero-banner d-none d-lg-flex">
+        <section class="hero-banner d-none d-lg-flex" id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-8">
@@ -62,7 +65,7 @@
                         <p>If you’re a D2C brand owner, or planning to start a D2C business then, Then this event is for
                             you!</p>
                         <p style="font-weight: 600 !important; color: #DF463E;">Holiday Inn | 24th August | 10:00Am</p>    
-                        <button><a href="">Enroll Now</a></button>
+                        <button><a href="#form">Enroll Now</a></button>
                         <p></p>
                         <div class="price-box mt-3 d-flex gap-3">
                             <p>Regular Program Fee</p>
@@ -73,7 +76,7 @@
             </div>
         </section>
 
-        <div class="mobile-hero-banner d-lg-none d-block">
+        <div class="mobile-hero-banner d-lg-none d-block" id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-12 order-2 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -94,7 +97,7 @@
             </div>
         </div>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
@@ -104,7 +107,7 @@
                             data-driven performance marketing, building long-term growth with retention strategies,
                             crafting attention-grabbing UGC ads, and designing high-converting landing pages. Connect
                             with top D2C founders and enjoy a networking lunch.</p>
-                        <button><a href="">Enroll Now</a></button>
+                        <button><a href="#form">Enroll Now</a></button>
                     </div>
                     <div class="col-lg-6">
 
@@ -113,7 +116,7 @@
             </div>
         </section>
 
-        <section class="bg-three-box">
+        <section class="bg-three-box" id="why">
             <div class="bg-image"></div>
             <div class="container">
                 <div class="row">
@@ -192,7 +195,7 @@
             </div>
         </section>
 
-        <section class="agenda">
+        <section class="agenda" id="agenda">
             <div class="bg-box"></div>
             <div class="container">
                 <div class="row">
@@ -413,7 +416,7 @@
             </div>
         </section>
 
-        <section class="mentors">
+        <section class="mentors" id="mentor">
             <div class="bg-image"></div>
             <div class="container">
                 <div class="row">
@@ -456,10 +459,10 @@
             </div>
         </section>
 
-        <section class="faq">
+        <section class="faq" id="faq">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-7">
                         <h2 class="mb-3">FAQs?</h2>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
@@ -538,8 +541,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-5">
-                        <div class="form-box">
+                    <div class="col-lg-5">
+                        <div class="form-box" id="form">
                             <form action="">
                                 <div class="row">
                                     <div class="col-12 mb-2">
@@ -564,7 +567,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -575,24 +578,23 @@
         <div class="foot">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center col-12 logo-bg">
+                    <!-- <div class="col-lg-12 text-center col-12 logo-bg">
                         <img src="Images/logo.png" width="300" alt="">
-                    </div>
-                    <div class="col-lg-4">
+                    </div> -->
+                    <div class="col-lg-5">
                         <div class="d-flex align-items-center gap-3">
                             <a href="privacy.html">Privacy Policy</a>
                             <a href="terms-and-condition.html">Terms & Conditions</a>
                             <a href="refund.html">Refund Policy</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex gap-2 align-items-center justify-content-center">
+                    <div class="col-lg-7 d-flex gap-2 align-items-center justify-content-center">
                         <p>+91 99828 98842</p>
                         <p>+91 97859 57575</p>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-center">
-                        <p>Copyright @CuriousApes 2025 Powered by The Cogent</p>
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <p>Copyright @CuriousApes 2025 Powered by COGENT 360 SOLUTIONS PRIVATE LIMITED</p>
                     </div>
-
                 </div>
             </div>
         </div>

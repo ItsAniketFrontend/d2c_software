@@ -15,12 +15,7 @@ header {
 }
 
 nav {
-  position: absolute !important;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  width: 100%;
-  background: transparent !important;
+  background-color: #022c4a !important;
   transition: all 500ms ease;
   z-index: 999;
 }
@@ -613,7 +608,7 @@ footer {
   text-align: center;
   font-size: 12px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700 !important;
   color: #fff;
   letter-spacing: 1.2px;
   text-transform: none;
